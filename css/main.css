@@ -1,0 +1,151 @@
+body {
+ background-color: aqua;
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+/* navbar */
+.navbar {
+ background: #333;
+ text-align: center;
+ padding: 10px;
+}
+.navbar a {
+ color: white;
+ text-decoration: none;
+ margin: 0 10px;
+ padding: 5px 10px;
+ font-weight: bold;
+ border-radius: 5px;
+}
+.navbar a:hover {
+ background: #555;
+}
+.navbar a.active {
+ background: yellow;
+ color: black;
+}
+/* profilboks */
+.profile {
+ width: 500px;
+ margin: 50px auto;
+ background: white;
+ padding: 20px;
+ border-radius: 10px;
+}
+.profile h2 {
+ text-align: center;
+ margin-bottom: 20px;
+}
+.profile-content {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+.profile-picture-container {
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ overflow: hidden;
+ flex-shrink: 0;
+}
+.profile-picture-container img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.profile-text {
+ flex: 1;
+}
+.profile {
+
+  width: 400px;
+
+  margin: 50px auto;
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+
+}
+
+.profile h2 {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+.profile form div {
+
+  margin-bottom: 15px;
+
+}
+
+.profile label {
+
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-weight: bold;
+
+}
+
+.profile input,
+
+.profile textarea {
+
+  width: 100%;
+
+  padding: 8px;
+
+  font-size: 14px;
+
+  border: 1px solid #999;
+
+  border-radius: 5px;
+
+  box-sizing: border-box;
+
+}
+
+.profile textarea {
+
+  resize: vertical;
+
+}
+
+.profile button {
+
+  width: 100%;
+
+  padding: 10px;
+
+  background: #333;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+.profile button:hover {
+
+  background: #555;
+
+}
+ 
